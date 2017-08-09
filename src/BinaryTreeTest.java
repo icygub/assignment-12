@@ -4,16 +4,16 @@ public class BinaryTreeTest {
     @org.junit.Test
     public void insertNode() throws Exception {
         BinaryTree binaryTree = new BinaryTree();
-        binaryTree.insertNode(5);
-        binaryTree.insertNode(4);
-        binaryTree.insertNode(3);
-        binaryTree.insertNode(2);
-        binaryTree.insertNode(7);
-        binaryTree.insertNode(6);
-        binaryTree.insertNode(8);
-        binaryTree.insertNode(9);
-        binaryTree.insertNode(1);
-        binaryTree.insertNode(0);
+        binaryTree.insertNode(new CourseOffering(5).getCourseNumber());
+        binaryTree.insertNode(new CourseOffering(4).getCourseNumber());
+        binaryTree.insertNode(new CourseOffering(3).getCourseNumber());
+        binaryTree.insertNode(new CourseOffering(2).getCourseNumber());
+        binaryTree.insertNode(new CourseOffering(7).getCourseNumber());
+        binaryTree.insertNode(new CourseOffering(6).getCourseNumber());
+        binaryTree.insertNode(new CourseOffering(8).getCourseNumber());
+        binaryTree.insertNode(new CourseOffering(9).getCourseNumber());
+        binaryTree.insertNode(new CourseOffering(1).getCourseNumber());
+        binaryTree.insertNode(new CourseOffering(0).getCourseNumber());
 
         binaryTree.findNode(5);
         binaryTree.findNode(4);
@@ -37,16 +37,16 @@ public class BinaryTreeTest {
     @org.junit.Test
     public void findNode() throws Exception {
         BinaryTree binaryTree = new BinaryTree();
-        binaryTree.insertNode(5);
-        binaryTree.insertNode(4);
-        binaryTree.insertNode(3);
-        binaryTree.insertNode(2);
-        binaryTree.insertNode(7);
-        binaryTree.insertNode(6);
-        binaryTree.insertNode(8);
-        binaryTree.insertNode(9);
-        binaryTree.insertNode(1);
-        binaryTree.insertNode(0);
+        binaryTree.insertNode(new CourseOffering(5).getCourseNumber());
+        binaryTree.insertNode(new CourseOffering(4).getCourseNumber());
+        binaryTree.insertNode(new CourseOffering(3).getCourseNumber());
+        binaryTree.insertNode(new CourseOffering(2).getCourseNumber());
+        binaryTree.insertNode(new CourseOffering(7).getCourseNumber());
+        binaryTree.insertNode(new CourseOffering(6).getCourseNumber());
+        binaryTree.insertNode(new CourseOffering(8).getCourseNumber());
+        binaryTree.insertNode(new CourseOffering(9).getCourseNumber());
+        binaryTree.insertNode(new CourseOffering(1).getCourseNumber());
+        binaryTree.insertNode(new CourseOffering(0).getCourseNumber());
 
         binaryTree.findNode(5);
         binaryTree.findNode(4);
@@ -63,16 +63,16 @@ public class BinaryTreeTest {
     @org.junit.Test
     public void inorderTraversal() throws Exception {
         BinaryTree binaryTree = new BinaryTree();
-        binaryTree.insertNode(5);
-        binaryTree.insertNode(4);
-        binaryTree.insertNode(3);
-        binaryTree.insertNode(2);
-        binaryTree.insertNode(7);
-        binaryTree.insertNode(6);
-        binaryTree.insertNode(8);
-        binaryTree.insertNode(9);
-        binaryTree.insertNode(1);
-        binaryTree.insertNode(0);
+        binaryTree.insertNode(new CourseOffering(5).getCourseNumber());
+        binaryTree.insertNode(new CourseOffering(4).getCourseNumber());
+        binaryTree.insertNode(new CourseOffering(3).getCourseNumber());
+        binaryTree.insertNode(new CourseOffering(2).getCourseNumber());
+        binaryTree.insertNode(new CourseOffering(7).getCourseNumber());
+        binaryTree.insertNode(new CourseOffering(6).getCourseNumber());
+        binaryTree.insertNode(new CourseOffering(8).getCourseNumber());
+        binaryTree.insertNode(new CourseOffering(9).getCourseNumber());
+        binaryTree.insertNode(new CourseOffering(1).getCourseNumber());
+        binaryTree.insertNode(new CourseOffering(0).getCourseNumber());
 
         binaryTree.inorderTraversal();
     }
@@ -80,16 +80,16 @@ public class BinaryTreeTest {
     @org.junit.Test
     public void preorderTraversal() throws Exception {
         BinaryTree binaryTree = new BinaryTree();
-        binaryTree.insertNode(5);
-        binaryTree.insertNode(4);
-        binaryTree.insertNode(3);
-        binaryTree.insertNode(2);
-        binaryTree.insertNode(7);
-        binaryTree.insertNode(6);
-        binaryTree.insertNode(8);
-        binaryTree.insertNode(9);
-        binaryTree.insertNode(1);
-        binaryTree.insertNode(0);
+        binaryTree.insertNode(new CourseOffering(5).getCourseNumber());
+        binaryTree.insertNode(new CourseOffering(4).getCourseNumber());
+        binaryTree.insertNode(new CourseOffering(3).getCourseNumber());
+        binaryTree.insertNode(new CourseOffering(2).getCourseNumber());
+        binaryTree.insertNode(new CourseOffering(7).getCourseNumber());
+        binaryTree.insertNode(new CourseOffering(6).getCourseNumber());
+        binaryTree.insertNode(new CourseOffering(8).getCourseNumber());
+        binaryTree.insertNode(new CourseOffering(9).getCourseNumber());
+        binaryTree.insertNode(new CourseOffering(1).getCourseNumber());
+        binaryTree.insertNode(new CourseOffering(0).getCourseNumber());
 
         System.out.println("-------------\n");
 
@@ -99,16 +99,16 @@ public class BinaryTreeTest {
     @org.junit.Test
     public void postorderTraversal() throws Exception {
         BinaryTree binaryTree = new BinaryTree();
-        binaryTree.insertNode(5);
-        binaryTree.insertNode(4);
-        binaryTree.insertNode(3);
-        binaryTree.insertNode(2);
-        binaryTree.insertNode(7);
-        binaryTree.insertNode(6);
-        binaryTree.insertNode(8);
-        binaryTree.insertNode(9);
-        binaryTree.insertNode(1);
-        binaryTree.insertNode(0);
+        binaryTree.insertNode(new CourseOffering(5).getCourseNumber());
+        binaryTree.insertNode(new CourseOffering(4).getCourseNumber());
+        binaryTree.insertNode(new CourseOffering(3).getCourseNumber());
+        binaryTree.insertNode(new CourseOffering(2).getCourseNumber());
+        binaryTree.insertNode(new CourseOffering(7).getCourseNumber());
+        binaryTree.insertNode(new CourseOffering(6).getCourseNumber());
+        binaryTree.insertNode(new CourseOffering(8).getCourseNumber());
+        binaryTree.insertNode(new CourseOffering(9).getCourseNumber());
+        binaryTree.insertNode(new CourseOffering(1).getCourseNumber());
+        binaryTree.insertNode(new CourseOffering(0).getCourseNumber());
 
         System.out.println("-------------\n");
 
