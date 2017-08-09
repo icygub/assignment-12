@@ -67,6 +67,21 @@ public class BinaryTree {
 
         return nodeFound;
     }
+    public void preorderTraversal() {
+        if(isEmpty())
+            System.out.println("The binary tree is empty");
+        else
+            preorderTraversal(root);
+    }
+
+    public void preorderTraversal(Node node) {
+        System.out.println(node.data);
+
+        if(node.left != null)
+            preorderTraversal(node.left);
+        if(node.right != null)
+            preorderTraversal(node.right);
+    }
 
     public void inorderTraversal() {
         if(isEmpty())
@@ -82,10 +97,6 @@ public class BinaryTree {
 
         if(node.right != null)
             inorderTraversal(node.right);
-    }
-
-    public void preorderTraversal() {
-
     }
 
     public void postorderTraversal() {
