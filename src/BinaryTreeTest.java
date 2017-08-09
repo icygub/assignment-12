@@ -110,7 +110,9 @@ public class BinaryTreeTest {
         binaryTree.insertNode(1);
         binaryTree.insertNode(0);
 
+        System.out.println("-------------\n");
 
+        binaryTree.postorderTraversal();
 
 
     }

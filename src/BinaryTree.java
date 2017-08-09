@@ -100,7 +100,19 @@ public class BinaryTree {
     }
 
     public void postorderTraversal() {
+        if(isEmpty())
+            System.out.println("The binary tree is empty");
+        else
+            postorderTraversal(root);
+    }
 
+    public void postorderTraversal(Node node) {
+        if(node.left != null)
+            postorderTraversal(node.left);
+
+        if(node.right != null)
+            postorderTraversal(node.right);
+        System.out.println(node.data);
     }
 
     public boolean isEmpty() {
