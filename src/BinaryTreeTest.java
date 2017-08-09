@@ -15,16 +15,18 @@ public class BinaryTreeTest {
         binaryTree.insertNode(1);
         binaryTree.insertNode(0);
 
-        binaryTree.findNode(5);
-        binaryTree.findNode(4);
-        binaryTree.findNode(3);
-        binaryTree.findNode(2);
-        binaryTree.findNode(7);
-        binaryTree.findNode(6);
-        binaryTree.findNode(8);
-        binaryTree.findNode(9);
-        binaryTree.findNode(1);
-        binaryTree.findNode(0);
+//        binaryTree.findNode(5);
+//        binaryTree.findNode(4);
+//        binaryTree.findNode(3);
+//        binaryTree.findNode(2);
+//        binaryTree.findNode(7);
+//        binaryTree.findNode(6);
+//        binaryTree.findNode(8);
+//        binaryTree.findNode(9);
+//        binaryTree.findNode(1);
+//        binaryTree.findNode(0);
+
+        binaryTree.inorderTraversal();
 
     }
 

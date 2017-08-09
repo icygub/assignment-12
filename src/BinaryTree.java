@@ -16,7 +16,7 @@ public class BinaryTree {
 
     }
 
-    public void insertNode(int data, Node recursiveNode) { //recursiveNode should be root node when initally called
+    public void insertNode(int data, Node recursiveNode) { //recursiveNode will be root when initially called
         Node node = new Node(data);
         if(node.data < recursiveNode.data) {
             if(recursiveNode.left == null)
@@ -69,7 +69,19 @@ public class BinaryTree {
     }
 
     public void inorderTraversal() {
+        if(isEmpty())
+            System.out.println("The binary tree is empty");
+        else
+            inorderTraversal(root);
+    }
 
+    public void inorderTraversal(Node node) {
+        if(node.left != null)
+            inorderTraversal(node.left);
+        System.out.println(node.data);
+
+        if(node.right != null)
+            inorderTraversal(node.right);
     }
 
     public void preorderTraversal() {
